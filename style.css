@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/background.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #eaedef;
+}
+
+#calculator {
+  margin: auto;
+  background-color: #eaedef;
+  height: 650px;
+  width: 500px;
+  border-radius: 5%;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+#history {
+  text-align: right;
+  margin: 0% 10%;
+  padding: 0;
+  height: 75px;
+  color: #919191;
+  font-size: 50px;
+  overflow: auto;
+}
+
+#result {
+  text-align: right;
+  margin: 0% 10%;
+  padding: 0;
+  font-size: 75px;
+  height: 100px;
+  overflow: auto;
+}
+
+#keyboard {
+  height: 475px;
+}
+.number,
+.operator,
+.empty,
+.func {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #eaedef;
+  margin: 0 55px 0 0;
+  cursor: pointer;
+}
+
+.operator:focus,
+.number:focus,
+.empty,
+.func:focus {
+  outline: 0;
+}
+
+#firstRow {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+#secondRow {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+#thirdRow {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+#forthRow {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+#fifthRow {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}
