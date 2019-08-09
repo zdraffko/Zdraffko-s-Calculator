@@ -87,3 +87,19 @@ body {
   top: 90%;
   left: 5%;
 }
+
+@media screen and (max-width: 700px) {
+  #calculator {
+    width: 350px;
+    height: 600px;
+  }
+
+  .number,
+  .operator,
+  .empty,
+  .func {
+    widows: 50px;
+    height: 55px;
+    margin-right: 20px;
+  }
+}
